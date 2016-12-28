@@ -103,8 +103,8 @@ Board = {
         var lights = document.createElement('ul');
         $(lights).addClass('lights');
         $('.killedSoldiers').append(darks, lights);
-        $('.darks').append('<li>Black soldiers</li>');
-        $('.lights').append('<li>White soldiers</li>');
+        $('.darks').append('<li>Black</li>');
+        $('.lights').append('<li>White</li>');
         for (var i = 0; i < this.killedDarks.length; i++) {
             $('.darks').append('<li>' + this.killedDarks[i] + '</li>');
         }
